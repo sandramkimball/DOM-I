@@ -45,23 +45,14 @@ const codeSnip = document.querySelector('#cta-img');
 codeSnip.src = 'img/header-img.png';
 
 //nav titles
-const navTitle2 = document.querySelector("nav a")
-navTitle2.textContent = "Services";
+const navTitle = document.querySelectorAll("nav a")
+navTitle[0].textContent = "Services";
+navTitle[1].textContent = "Product";
+navTitle[2].textContent = "Vision";
+navTitle[3].textContent = "Features";
+navTitle[4].textContent = "About";
+navTitle[5].textContent = "Contact";
 
-// const navTitle3 = document.querySelector('nav a');
-// navTitle3.textContent = "Product";
-
-// const navTitle4 = document.querySelector('nav a');
-// navTitle.textContent = "Vision";
-
-// const navTitle5 = document.querySelector('nav a');
-// navTitle5.textContent = "Features";
-
-// const navTitle6 = document.querySelector('nav a');
-// navTitle6.textContent = "About";
-
-// const navTitle7 = document.querySelector('nav a');
-// navTitle7.textContent = "Contact";
 
 
 const navigationColor = document.querySelector('header');
@@ -98,50 +89,41 @@ const middleImg = document.querySelector('#middle-img');
 middleImg.src = 'img/mid-page-accent.jpg';
 
 
-/*  FEATURES */
-const featuresH4 = document.querySelector('.top-content h4');
-featuresH4.textContent = "Features";
+/*  TOP */
+const topH4 = document.querySelectorAll('.top-content h4');
+topH4[0].textContent = "Features";
+topH4[1].textContent = "About";
 
-const featuresP = document.querySelector('.top-content p');
-featuresP.textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+const topP = document.querySelectorAll('.top-content p');
+topP[0].textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
-/*  ABOUT */
-// const aboutH4 = document.querySelector('.top-content h4');
-// aboutH4.textContent = "About";
-
-// const aboutP = document.querySelector('.top-content p');
-// aboutP.textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+topP[1].textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 
-/*  SERVICES */
-const servicesH4 = document.querySelector('.bottom-content h4');
-servicesH4.textContent = "Services";
+/*  BOTTOM */
+const bottomH4 = document.querySelectorAll('.bottom-content h4');
+bottomH4[0].textContent = "Services";
+bottomH4[1].textContent = "Product";
+bottomH4[2].textContent = "Vision";
 
 
-const servicesP = document.querySelector('.bottom-content p');
-servicesP.textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
-/*  PRODUCT */
-// const productH4 = document.querySelector('.bottom-content h4');
-// productH4.textContent = "Product";
+const bottomP = document.querySelectorAll('.bottom-content p');
+bottomP[0].textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
-//const productP = document.querySelector('.bottom-content p');
-// productP.textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+bottomP[1].textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
 
-/*  VISION */
-// const visionH4 = document.querySelector('.bottom-content h4');
-// visionH4.textContent = "Vision";
-
-//const visionP = document.querySelector('.bottom-content p');
-// visionP.textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+bottomP[2].textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 
 
 //contact
 const contactH4 = document.querySelector('.contact h4');
 contactH4.textContent = 'Contact';
 
-const contactP = document.querySelectorAll ('.contact p');
-contactP.textContent = '123 Way 456 Street Somewhere, USA', '1 (888) 888-88880', 'sales@greatidea.io';
+const contactP = document.querySelectorAll('.contact p');
+contactP[0].textContent = '123 Way 456 Street Somewhere, USA';
+contactP[1].textContent = '1 (888) 888-88880';
+contactP[2].textContent = 'sales@greatidea.io';
 
 //footer
 const footerText = document.querySelector('footer p');
